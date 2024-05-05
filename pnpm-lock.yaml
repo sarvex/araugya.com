@@ -20,8 +20,8 @@ dependencies:
 
 devDependencies:
   '@builder.io/partytown':
-    specifier: 0.9.0
-    version: 0.9.0
+    specifier: 0.10.2
+    version: 0.10.2
   '@builder.io/qwik':
     specifier: 1.4.2
     version: 1.4.2(@types/node@20.11.10)(undici@6.15.0)
@@ -45,7 +45,7 @@ devDependencies:
     version: 7.6.10(typescript@5.3.3)(vite@5.0.12)
   '@storybook/html':
     specifier: 7.6.10
-    version: 7.6.10(@babel/core@7.23.3)
+    version: 7.6.10(@babel/core@7.24.5)
   '@storybook/html-vite':
     specifier: 8.0.9
     version: 8.0.9(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(vite@5.0.12)
@@ -1568,8 +1568,8 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@builder.io/partytown@0.9.0:
-    resolution: {integrity: sha512-kWMcSKBFeymAbumz+pWEYKgdI1JOD6QdkZRi16/ANuCqq2nZ6xZZvXOxWxodN71gBbY+6O31dRd2bMfZNLESJw==}
+  /@builder.io/partytown@0.10.2:
+    resolution: {integrity: sha512-A9U+4PREWcS+CCYzKGIPovtGB/PBgnH/8oQyCE6Nr9drDJk6cMPpLQIEajpGPmG9tYF7N3FkRvhXm/AS9+0iKg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dev: true
@@ -3992,13 +3992,13 @@ packages:
       - vite-plugin-glimmerx
     dev: true
 
-  /@storybook/html@7.6.10(@babel/core@7.23.3):
+  /@storybook/html@7.6.10(@babel/core@7.24.5):
     resolution: {integrity: sha512-AgZLu9HtVTDEATOuYqmwKic9K8q+zdvo4fWVAyvwU+pEWDyB1zZiAQPAyg3mbex3df2FaCyIFClbZx28YOfk5A==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       '@babel/core': '*'
     dependencies:
-      '@babel/core': 7.23.3
+      '@babel/core': 7.24.5
       '@storybook/core-client': 7.6.10
       '@storybook/docs-tools': 7.6.10
       '@storybook/global': 5.0.0
